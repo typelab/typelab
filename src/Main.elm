@@ -2,6 +2,8 @@ module Main exposing (main)
 
 import Browser
 import Html exposing (Html, div, text)
+import Language exposing (..)
+import Types exposing (..)
 
 
 main : Program () Model Msg
