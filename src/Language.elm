@@ -1,11 +1,12 @@
-module Language exposing (..)
+module Language exposing (Lang(..))
 
-type Lang 
-    = Elm 
-    | FSharp 
-    | Haskell 
-    | Idris 
-    | Purescript 
-    | OCaml 
-    | Reason 
+
+type Lang
+    = Elm
+    | FSharp
+    | Haskell
+    | Idris
+    | Purescript
+    | OCaml
+    | Reason
     | Unknown
